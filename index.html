@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html manifest="eurom.appcache">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title id="winTitle" class="translate" translation-id="title"></title>
+        <link rel="icon" type="image/jpg" href="img/eurom.png">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/site.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="panel panel-default margin-top-20">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-sm-4">
+                             <img src="img/eurom.png" class="img-responsive" alt="Euromillions"> 
+                        </div>
+                        <div class="col-sm-8">
+                            <h3 id="title" translation-id="title"></h3>
+                            <h4 id="titleDesc" translation-id="titleDesc"></h4>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div id="cultureToolbar" class="row">
+                        <div class="btn-group btn-group-xs pull-right margin-right-10" role="group" aria-label="...">
+                            <button type="button" id="portugueseFlagBtn" class="btn btn-default"><img src="./img/portuguese-flag.png" class="img-responsive" alt="USA flag"></button>
+                            <button type="button" id="usaFlagBtn" class="btn btn-default"><img src="./img/usa-flag.png" class="img-responsive" alt="Portuguese flag"></button>
+                            <button type="button" id="frenchFlagBtn" class="btn btn-default"><img src="./img/french-flag.png" class="img-responsive" alt="Spanish flag"></button>
+                            <button type="button" id="germanFlagBtn" class="btn btn-default"><img src="./img/german-flag.png" class="img-responsive" alt="French flag"></button>
+                            <button type="button" id="spanishFlagBtn" class="btn btn-default"><img src="./img/spanish-flag.png" class="img-responsive" alt="German flag"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div id="panelBodyContainer"></div>
+                </div>
+            </div>
+        </div>
+        <script data-main="js/app/main" src="js/lib/require.js"></script>
+    </body>
+</html>

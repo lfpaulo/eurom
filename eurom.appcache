@@ -1,0 +1,30 @@
+CACHE MANIFEST
+# 2017-11-15 v.1.30.000
+
+# Explicitly cached 'master entries'.
+CACHE:
+css/bootstrap.css
+css/site.css
+fonts/glyphicons-halflings-regular.eot
+fonts/glyphicons-halflings-regular.svg
+fonts/glyphicons-halflings-regular.ttf
+fonts/glyphicons-halflings-regular.woff
+fonts/glyphicons-halflings-regular.woff2
+img/eurom.png
+img/french-flag.png
+img/german-flag.png
+img/portuguese-flag.png
+img/spanish-flag.png
+img/usa-flag.png
+js/lib/bootstrap.js
+js/lib/jquery.js
+js/lib/require.js
+js/lib/underscore.js
+js/translations/translations.js
+js/app/app.js
+js/app/html-factory.js
+js/app/local-storage-manager.js
+js/app/main.js
+js/app/translations-manager.js
+js/app/utils.js
+index.html
